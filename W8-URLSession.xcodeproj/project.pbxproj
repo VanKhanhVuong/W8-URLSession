@@ -13,6 +13,26 @@
 		665944F026414BFE00C474A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665944EE26414BFE00C474A8 /* Main.storyboard */; };
 		665944F226414BFF00C474A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665944F126414BFF00C474A8 /* Assets.xcassets */; };
 		665944F526414BFF00C474A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665944F326414BFF00C474A8 /* LaunchScreen.storyboard */; };
+		665944FF26414D8E00C474A8 /* QueryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665944FE26414D8E00C474A8 /* QueryService.swift */; };
+		6659450426414FE600C474A8 /* Drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6659450326414FE600C474A8 /* Drinks.swift */; };
+		66AFE0952643CD8C009D5933 /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFE0942643CD8C009D5933 /* ErrorResponse.swift */; };
+		66AFE09F2643E423009D5933 /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFE09E2643E423009D5933 /* EndPointType.swift */; };
+		66AFE0A22643E4FB009D5933 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFE0A12643E4FB009D5933 /* HTTPMethod.swift */; };
+		66AFE0A52643E5BA009D5933 /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFE0A42643E5BA009D5933 /* HTTPTask.swift */; };
+		66AFE0A92643E724009D5933 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFE0A82643E724009D5933 /* ParameterEncoding.swift */; };
+		66AFE0AC2643EFE1009D5933 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFE0AB2643EFE1009D5933 /* URLParameterEncoder.swift */; };
+		66AFE0B02643F3FD009D5933 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFE0AF2643F3FD009D5933 /* JSONParameterEncoder.swift */; };
+		66AFE0B32643F4F4009D5933 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFE0B22643F4F4009D5933 /* NetworkRouter.swift */; };
+		66AFE0B62643F5C9009D5933 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFE0B52643F5C9009D5933 /* Router.swift */; };
+		66AFE0BA2644C3ED009D5933 /* DrinkEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFE0B92644C3ED009D5933 /* DrinkEndPoint.swift */; };
+		66AFE0BE2644C8BD009D5933 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFE0BD2644C8BD009D5933 /* NetworkManager.swift */; };
+		66AFE0C526451F2F009D5933 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFE0C426451F2F009D5933 /* NetworkLogger.swift */; };
+		66EFD10026424F1800308A9A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EFD0FF26424F1800308A9A /* ViewModel.swift */; };
+		66EFD107264251AA00308A9A /* DrinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EFD105264251AA00308A9A /* DrinkTableViewCell.swift */; };
+		66EFD108264251AA00308A9A /* DrinkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66EFD106264251AA00308A9A /* DrinkTableViewCell.xib */; };
+		66EFD11426428D4600308A9A /* UIImageView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EFD11326428D4600308A9A /* UIImageView+Extention.swift */; };
+		66EFD11A2642988F00308A9A /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EFD1192642988F00308A9A /* Download.swift */; };
+		66EFD11E26429BCB00308A9A /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EFD11D26429BCB00308A9A /* DownloadService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +44,26 @@
 		665944F126414BFF00C474A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		665944F426414BFF00C474A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		665944F626414BFF00C474A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665944FE26414D8E00C474A8 /* QueryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryService.swift; sourceTree = "<group>"; };
+		6659450326414FE600C474A8 /* Drinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinks.swift; sourceTree = "<group>"; };
+		66AFE0942643CD8C009D5933 /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		66AFE09E2643E423009D5933 /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		66AFE0A12643E4FB009D5933 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		66AFE0A42643E5BA009D5933 /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		66AFE0A82643E724009D5933 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		66AFE0AB2643EFE1009D5933 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		66AFE0AF2643F3FD009D5933 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		66AFE0B22643F4F4009D5933 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		66AFE0B52643F5C9009D5933 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		66AFE0B92644C3ED009D5933 /* DrinkEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkEndPoint.swift; sourceTree = "<group>"; };
+		66AFE0BD2644C8BD009D5933 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		66AFE0C426451F2F009D5933 /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		66EFD0FF26424F1800308A9A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		66EFD105264251AA00308A9A /* DrinkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkTableViewCell.swift; sourceTree = "<group>"; };
+		66EFD106264251AA00308A9A /* DrinkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrinkTableViewCell.xib; sourceTree = "<group>"; };
+		66EFD11326428D4600308A9A /* UIImageView+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extention.swift"; sourceTree = "<group>"; };
+		66EFD1192642988F00308A9A /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
+		66EFD11D26429BCB00308A9A /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,10 @@
 		665944E726414BFE00C474A8 /* W8-URLSession */ = {
 			isa = PBXGroup;
 			children = (
+				66EFD11226428D0700308A9A /* Extention */,
+				66EFD1032642517B00308A9A /* Part */,
+				66EFD1022642516800308A9A /* ViewModel */,
+				665944FD26414D7700C474A8 /* Data */,
 				665944E826414BFE00C474A8 /* AppDelegate.swift */,
 				665944EA26414BFE00C474A8 /* SceneDelegate.swift */,
 				665944EC26414BFE00C474A8 /* ViewController.swift */,
@@ -65,6 +109,110 @@
 				665944F626414BFF00C474A8 /* Info.plist */,
 			);
 			path = "W8-URLSession";
+			sourceTree = "<group>";
+		};
+		665944FD26414D7700C474A8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				66EFD0FA2642456700308A9A /* Networking */,
+				6659450226414FCF00C474A8 /* Model */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6659450226414FCF00C474A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6659450326414FE600C474A8 /* Drinks.swift */,
+				66EFD1192642988F00308A9A /* Download.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		66AFE0992643E37F009D5933 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				66AFE0B92644C3ED009D5933 /* DrinkEndPoint.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		66AFE09A2643E3A1009D5933 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				66AFE09E2643E423009D5933 /* EndPointType.swift */,
+				66AFE0A12643E4FB009D5933 /* HTTPMethod.swift */,
+				66AFE0A42643E5BA009D5933 /* HTTPTask.swift */,
+				66AFE0B22643F4F4009D5933 /* NetworkRouter.swift */,
+				66AFE0B52643F5C9009D5933 /* Router.swift */,
+				66AFE0C426451F2F009D5933 /* NetworkLogger.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		66AFE09B2643E3B0009D5933 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				66AFE0BD2644C8BD009D5933 /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		66AFE09C2643E3CE009D5933 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				66AFE0A82643E724009D5933 /* ParameterEncoding.swift */,
+				66AFE0AB2643EFE1009D5933 /* URLParameterEncoder.swift */,
+				66AFE0AF2643F3FD009D5933 /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		66EFD0FA2642456700308A9A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				66AFE09C2643E3CE009D5933 /* Encoding */,
+				66AFE09B2643E3B0009D5933 /* Manager */,
+				66AFE09A2643E3A1009D5933 /* Service */,
+				66AFE0992643E37F009D5933 /* EndPoint */,
+				665944FE26414D8E00C474A8 /* QueryService.swift */,
+				66EFD11D26429BCB00308A9A /* DownloadService.swift */,
+				66AFE0942643CD8C009D5933 /* ErrorResponse.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		66EFD1022642516800308A9A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				66EFD0FF26424F1800308A9A /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		66EFD1032642517B00308A9A /* Part */ = {
+			isa = PBXGroup;
+			children = (
+				66EFD1042642518300308A9A /* Cell */,
+			);
+			path = Part;
+			sourceTree = "<group>";
+		};
+		66EFD1042642518300308A9A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				66EFD105264251AA00308A9A /* DrinkTableViewCell.swift */,
+				66EFD106264251AA00308A9A /* DrinkTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		66EFD11226428D0700308A9A /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				66EFD11326428D4600308A9A /* UIImageView+Extention.swift */,
+			);
+			path = Extention;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +274,7 @@
 			files = (
 				665944F526414BFF00C474A8 /* LaunchScreen.storyboard in Resources */,
 				665944F226414BFF00C474A8 /* Assets.xcassets in Resources */,
+				66EFD108264251AA00308A9A /* DrinkTableViewCell.xib in Resources */,
 				665944F026414BFE00C474A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,9 +286,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66AFE0A52643E5BA009D5933 /* HTTPTask.swift in Sources */,
+				66EFD11A2642988F00308A9A /* Download.swift in Sources */,
+				66EFD11426428D4600308A9A /* UIImageView+Extention.swift in Sources */,
+				66AFE0BE2644C8BD009D5933 /* NetworkManager.swift in Sources */,
+				66EFD107264251AA00308A9A /* DrinkTableViewCell.swift in Sources */,
+				665944FF26414D8E00C474A8 /* QueryService.swift in Sources */,
 				665944ED26414BFE00C474A8 /* ViewController.swift in Sources */,
+				66AFE0B62643F5C9009D5933 /* Router.swift in Sources */,
+				66EFD11E26429BCB00308A9A /* DownloadService.swift in Sources */,
+				6659450426414FE600C474A8 /* Drinks.swift in Sources */,
+				66AFE0C526451F2F009D5933 /* NetworkLogger.swift in Sources */,
+				66AFE0AC2643EFE1009D5933 /* URLParameterEncoder.swift in Sources */,
+				66AFE0952643CD8C009D5933 /* ErrorResponse.swift in Sources */,
+				66AFE09F2643E423009D5933 /* EndPointType.swift in Sources */,
 				665944E926414BFE00C474A8 /* AppDelegate.swift in Sources */,
+				66AFE0A22643E4FB009D5933 /* HTTPMethod.swift in Sources */,
+				66AFE0A92643E724009D5933 /* ParameterEncoding.swift in Sources */,
+				66AFE0B02643F3FD009D5933 /* JSONParameterEncoder.swift in Sources */,
+				66EFD10026424F1800308A9A /* ViewModel.swift in Sources */,
 				665944EB26414BFE00C474A8 /* SceneDelegate.swift in Sources */,
+				66AFE0B32643F4F4009D5933 /* NetworkRouter.swift in Sources */,
+				66AFE0BA2644C3ED009D5933 /* DrinkEndPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
